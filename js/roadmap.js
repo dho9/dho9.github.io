@@ -1,11 +1,11 @@
 const images = [
-  "../web/img/001.jpg",
-  "../web/img/002.jpg",
-  "../web/img/003.jpg",
-  "../web/img/004.jpg",
-  "../web/img/005.jpg",
-  "../web/img/006.jpg",
-  "../web/img/007.jpg",
+  "img/001.jpg",
+  "img/002.jpg",
+  "img/003.jpg",
+  "img/004.jpg",
+  "img/005.jpg",
+  "img/006.jpg",
+  "img/007.jpg",
   
 ];
 

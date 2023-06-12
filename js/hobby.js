@@ -55,13 +55,13 @@ function modal_Close() {
 }
 const slides = document.querySelectorAll('.slider img');
 const images = [
-"../web/img/1.jpg",
-"../web/img/2.jpg",
-"../web/img/3.jpg",
-"../web/img/4.jpg",
-"../web/img/5.jpg",
-"../web/img/6.jpg",
-"../web/img/7.jpg",
+"img/1.jpg",
+"img/2.jpg",
+"img/3.jpg",
+"img/4.jpg",
+"img/5.jpg",
+"img/6.jpg",
+"img/7.jpg",
 ];
 let currentIndex = 0;
 const modalImageElement = document.getElementById("modal_image");
