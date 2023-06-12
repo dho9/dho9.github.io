@@ -1,0 +1,134 @@
+
+    @font-face {
+    font-family: 'UhBeenamsoyoung';
+    src: url('https://cdn.jsdelivr.net/gh/wizfile/font/UhBeenamsoyoung.eot');
+    src:url('https://cdn.jsdelivr.net/gh/wizfile/font/UhBeenamsoyoung.woff') format('woff');
+    font-style: normal;
+}
+				
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+     font-family: 'UhBeenamsoyoung';
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url("../img/책상2.jpg");
+    background-size: cover; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
+  
+  
+  .header {
+  position: relative; 
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1 rem; 
+}
+
+.nav {
+  position: absolute; 
+  top: 180px; 
+  left: 90px; 
+  font-size: 26px;
+}
+.nav li{
+  margin-right: 80px;
+}
+.nav li:nth-child(2) {
+  margin-right: 110px;
+}
+.nav li:nth-child(4) {
+  margin-right: 110px;
+}
+  .nav ul {
+    list-style: none;
+    display: flex;
+  }
+
+  
+ 
+  
+  .nav a {
+    text-decoration: none;
+    color: #333;
+  }
+
+
+.header img {
+  max-width: 100%;
+}
+
+
+.section {
+  width: 100%;
+  max-width: 1024px;
+  margin: -70px auto 0;
+  overflow: auto; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center;
+  background-color: #f1f1f1;
+}
+
+.section img {
+  max-width: 100%;
+  
+}
+
+/* button */
+#myButton {
+  width: 100px;
+  height: 100px;
+  background-image: url("../img/버스.png");
+  background-size: cover; 
+  border-radius: 50%; 
+}
+.button-container {
+    position: absolute;
+    
+    top: 680px;
+    left: 1300px;
+  }
+
+  .button-container p{
+    font-size: 25px;
+    font-weight: bolder;
+    opacity: 0;
+  }
+  
+  .button-container p.show {
+ 
+  opacity: 1;
+}
+
+
+.nav li p {
+    position: absolute;
+    top: 350px;
+    left:800px;
+    font-size: 30px;
+    opacity: 0;
+    font-weight: bolder;
+
+}
+.nav #myButton{
+    position: absolute;
+    top: 400px;
+    left:800px;
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+.nav p.show {
+ 
+ opacity: 1;
+}
